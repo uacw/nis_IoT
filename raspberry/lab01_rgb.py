@@ -36,7 +36,7 @@ def main():
         for button, led, *_ in channels:
             GPIO.setup(led, GPIO.OUT, initial=GPIO.LOW)
             GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-            GPIO.add_event_detect(button, GPIO.RISING, callback=on_edge, bouncetime=300)
+            GPIO.add_event_detect(button, GPIO.RISING, callback=on_edge, bouncetime=25)
         root.after(30, drain)
         root.mainloop()
     except KeyboardInterrupt:
