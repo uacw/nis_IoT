@@ -3,7 +3,7 @@
 - `raspberry/lab01_rgb.py` — RGB-светодиод и три кнопки.
 - `raspberry/lab02_camera.py` — камера Picamera2 и серво, в том числе Raspberry Pi 5.
 - `raspberry/lab02_camera_legacy.py` — вариант №2 для старого camera stack на Pi 3/4.
-- `raspberry/lab03_weather.py` — BME280, температура, влажность и давление в мм рт. ст.
+- `raspberry/lab03_weather.py` — температура и давление с BME280/BMP280, влажность с BME280.
 
 ## Скачать на Raspberry
 
